@@ -5,3 +5,12 @@ When a Git repository is initialized, a .git folder is created in the repository
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a transition area between the working directory and the repository - the working directory is the operating system level file structure, the staging area is a selection of any number of files to include in the repository, and the repository is is what Git operates on for commits, checkouts, etc...  The value of the staging area is that it allows users to only include the files they want in commits, or to add files to commits separately.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+By running the "git diff --staging" command, you can review the changes that will be made with an upcomming commit, and ensure they are all involved in the same, single logical change.
+
+4)  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be helpful keeping a history organized by allowing developers to name branches and commits, allowing them to logically name changes and quickly access them.  Branches also encourage developers to try new or experimental features, knowing that if they don't work out, it's one command to revert to another branch, or that if the features do function in a useful manner, they can be merged with other branches.
+
