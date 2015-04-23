@@ -14,3 +14,7 @@ By running the "git diff --staging" command, you can review the changes that wil
 
 Branches can be helpful keeping a history organized by allowing developers to name branches and commits, allowing them to logically name changes and quickly access them.  Branches also encourage developers to try new or experimental features, knowing that if they don't work out, it's one command to revert to another branch, or that if the features do function in a useful manner, they can be merged with other branches.
 
+5)  How do the diagrams help you visualize the branch structure?
+
+Branch diagrams help understand a git repository's history by showing where branches separate, so developers can examine what shared features separate branches have.  They also show the effects of the detached head state.
+
