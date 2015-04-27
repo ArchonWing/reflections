@@ -18,3 +18,10 @@ Branches can be helpful keeping a history organized by allowing developers to na
 
 Branch diagrams help understand a git repository's history by showing where branches separate, so developers can examine what shared features separate branches have.  They also show the effects of the detached head state.
 
+6)  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged together, a comparison of the two branches is made and they are formed together into one commit that incorporates the changes in both of them stemming from a common ancestor.  It is represented in the diagram this way so that it is easy to see with common ancestor is used.
+
+7)  What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is faster and not prone to human error.  Manual merges allow for different developers to decide on the superior way to resolve conflicts.
