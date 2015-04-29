@@ -29,4 +29,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You would want to make changes in a separate branch when testing a new feature that isn't ready for mainline release.  The disadvantage of this approach is that the separate branch won't be updated by other contributors' changes to the main branch, and by the time you are ready to incorporate the separate branch into the main, there may be significant merge conflicts present.
+    
